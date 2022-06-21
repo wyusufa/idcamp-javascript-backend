@@ -1,5 +1,5 @@
 /**
- * Destructuring object and array
+ * DESTRUCTURING OBJECT AND ARRAY
  */
 [
     {

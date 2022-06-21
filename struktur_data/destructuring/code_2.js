@@ -1,6 +1,6 @@
-// destructuring assignment 
-
 /*
+DESTRUCTURING ASSIGNMENT PADA OBJECT
+
 Pada contoh sebelumnya, kita telah melakukan destructuring object pada deklarasi variabel. Namun, pada kasus tertentu mungkin kita perlu melakukannya pada variabel yang sudah dideklarasikan.
 */
 
@@ -33,4 +33,6 @@ Saat melakukan destructuring assignment, kita perlu menuliskan destructuring obj
 Nah, inilah fungsinya tanda kurung. Ia akan memberi tahu JavaScript bahwa tanda kurawal di dalamnya bukan sebuah block statement melainkan sebuah expression, sehingga assignment dapat dilakukan.
 
 ({firstName, age} = profile);
+
 */
+

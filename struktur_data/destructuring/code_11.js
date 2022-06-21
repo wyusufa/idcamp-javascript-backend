@@ -1,0 +1,13 @@
+/*
+Default Values (2)
+
+Sama seperti object, pada destructuring array kita juga dapat memberikan nilai default pada variabel yang tidak dapat terjangkau oleh array, sehingga nilai pada variabel tidak akan menjadi undefined.
+
+*/
+
+const favorites = ["Seafood"];
+ 
+const [myFood, herFood = "Salad"] = favorites
+ 
+console.log(myFood);
+console.log(herFood);
