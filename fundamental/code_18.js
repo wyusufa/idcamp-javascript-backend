@@ -1,4 +1,4 @@
-// while and do while 
+// while
 
 let i = 1;
 
@@ -7,9 +7,3 @@ while (i <= 100) {
     i++;
 }
 
-let i = 1;
-
-do {
-    console.log(i);
-    i++;
-} while (i <= 100);
