@@ -1,5 +1,5 @@
 /*
-DESTRUCTURING ASSIGNMENT (2)
+SWAP VALUES 
 
 Array destructuring assignment sangat berguna ketika kita hendak menukar nilai antara dua variabel. Sebelum ES6, untuk melakukan hal ini kita menggunakan cara manual menggunakan algoritma sorting seperti ini:
 */
