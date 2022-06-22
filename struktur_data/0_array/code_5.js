@@ -1,4 +1,5 @@
 // splice() 
+// menghapus dan data geser
 
 const myArray = ["Cokelat", 42.5, 22, true, "Programming"];
 

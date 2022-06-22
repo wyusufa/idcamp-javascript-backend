@@ -1,0 +1,2 @@
+- beda object dengan map 
+- 
