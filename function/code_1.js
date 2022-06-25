@@ -7,4 +7,6 @@ function greeting(name, language) {
         console.log(`Selamat Pagi ${name}!`);
     }
 }
+let greetingMessage = greeting("Harry", "French");
+console.log(greetingMessage);
 
