@@ -1,17 +1,15 @@
-// JavaScript tidak memiliki cara untuk mendeklarasikan suatu fungsi atau variabel menjadi private seperti bahasa Java. Sehingga sebuah fungsi atau variabel bisa diakses dari mana pun. Kenapa kita membutuhkan private method? Salah satunya adalah untuk membatasi akses ke fungsi atau variabel. 
+function minMax(arrayOfNumbers) {
+    let currentMin = arrayOfNumbers[0];
+    let currentMax = arrayOfNumbers[0];
+    for (value of arrayOfNumbers) {
+        if (value < currentMin) {
+            currentMin = value;
+        } else if (value > currentMax) {
+            currentMax = value;
+        }
+    }
 
-let counter = 0;
-
-let add = () => {
-    return ++counter;
+    console.log(`currentMin: ${currentMin}, currentMax: ${currentMax}`);
 }
 
-console.log(add());
-console.log(add());
-counter = 23;
-console.log(add());
-
-// Nilai counter akan bertambah ketika kita memanggil fungsi add(). Namun, kita juga bisa mengubah nilai counter secara langsung dengan assignment operator. Pada contoh program yang lebih kompleks, sebaiknya hal ini dihindari karena perubahan langsung pada nilai counter bisa saja memunculkan bug.
-
-
-
+minMax([8, -6, 0, 9, 40, 2, 23, 50, 2, -3, -15, 15, -23, 71]);
