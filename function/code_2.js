@@ -1,6 +1,14 @@
-function multiply(a, b) {
-    return a * b;
+// Closure memungkinkan kita membuat fungsi dan variabel seolah menjadi private
+
+let add = () => {
+    let counter = 0;
+    return () => {
+        return ++counter;
+    };
 }
 
-let result = multiply(10, 2)
-console.log(result)
+let addCounter = add();
+
+console.log(addCounter());
+console.log(addCounter());
+console.log(addCounter());

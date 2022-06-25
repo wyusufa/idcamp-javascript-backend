@@ -1,15 +1,9 @@
-const greeting = function(name, language) {
-    if(language === "English") {
-        return "Good Morning " + name + "!";
-    } else if (language === "French") {
-        return "Bonjour " + name + "!";
-    } else {
-        return "Selamat Pagi " + name + "!";
+function outerFunction(outerVariable){
+    return function innerFunction(innerVariable){
+        console.log('Outer Variable ' + outerVariable); 
+        console.log('Inner Variable ' + innerVariable);
     }
 }
 
-console.log(greeting('Ron', 'English'));
-
-/* output
-Good Morning Ron!
- */
+const newFunction=outerFunction('outside');
+newFunction(); 

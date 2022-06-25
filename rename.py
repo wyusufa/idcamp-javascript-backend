@@ -1,5 +1,5 @@
 import os
-folder="struktur_data\\6_weakmapset"
+folder="function\\variable_scope"
 for count, filename in enumerate(os.listdir(folder)):
     lama=f"{folder}/{filename}"
     update=f"code_{str(count)}.js"
