@@ -1,4 +1,4 @@
-// constructor 
+// CONSTRUCTOR 
 
 // cara 1, jika kita menggunakan statement class
 class Mail{

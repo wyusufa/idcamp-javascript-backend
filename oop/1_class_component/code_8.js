@@ -1,3 +1,4 @@
+// property and property method 
 
 class Mail {
     constructor() {

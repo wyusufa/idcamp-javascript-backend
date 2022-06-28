@@ -1,3 +1,5 @@
+// property and property method 
+
 /*
 Dalam OOP sendiri, properti dibagi menjadi 2:
 

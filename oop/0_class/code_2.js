@@ -1,3 +1,5 @@
+// membuat class menggunakan sintaksis function
+
 // function tanpa menggunakan pendekatan prototype
 
 function Mail(){

@@ -1,3 +1,5 @@
+// property and property method 
+
 class Mail {
     constructor() {
         this.from = 'pengirim@dicoding.com';
@@ -10,8 +12,7 @@ class Mail {
     };
 }
 
-let mail=new Mail(); 
-console.log(mail.from);
-mail.sendMessage('hallo', 'penerima@dicoding.com');
-console.log(mail.contacts);
+const mail1 = new Mail();
+mail1.sendMessage('hallo', 'penerima@dicoding.com', 'aku@gmail.com');
 
+// Contoh di atas menunjukan bahwa ketika kita ingin menginisialisasi ataupun mengakses sebuah attribute global dari sebuah kelas, maka harus menggunakan this.attributeName. 

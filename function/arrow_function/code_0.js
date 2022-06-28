@@ -5,3 +5,7 @@ const sayName = name => {
 }
 
 sayName("Leia");
+
+// sayName = nama fungsinya
+// name = input parameter
+// di dalam curly braces = what the function do 
