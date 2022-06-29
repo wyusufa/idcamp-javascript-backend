@@ -13,3 +13,4 @@ const mail1 = new Mail();
 mail1.sendMessage('hallo', 'penerima@dicoding.com');
 
 console.log(mail1.hasOwnProperty('sendMessage'));
+console.log('hello')
