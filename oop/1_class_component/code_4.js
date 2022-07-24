@@ -1,8 +1,3 @@
-// property and property method 
-
-// Property adalah atribut dari sebuah objek, property sendiri dapat berupa tipe data primitive--seperti yang sebelumnya dibahas-- bahkan bisa juga berbentuk object dan fungsi. 
-
-
 // cara 1
 class Mail {
     constructor() {
